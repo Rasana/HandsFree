@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29bb034b-bf9f-4efa-a4f7-2d4b3717df03}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ccc8e725-c7f4-400f-aafe-5227e015b81d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{167df25e-b3de-43e1-84bb-f2bcc5fd1fbe}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acanim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acaudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acchar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acchars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="accomm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="accomms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acprop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acreq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="acuser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CapMFC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CapMFC.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="acanim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acchars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="accomm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="accomms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acreq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="acuser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CapMFC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\cap.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CapMFC.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\CapMFC.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
